@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "btree": "tsc ./btree/btree.ts && node ./btree/btree.js",
+    "counting": "tsc --target es2016 ./counting/counting.ts && node ./counting/counting.js"
+  }
+}
